@@ -4,7 +4,6 @@ import { withUt } from "uploadthing/tw";
 const config = {
   darkMode: ["class"],
   content: [
-    "./**/*.{ts,tsx,mdx}",
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
