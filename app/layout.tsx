@@ -5,10 +5,10 @@ import type { Metadata } from "next"
 
 import { cn } from "@/lib/utils"
 
-import { ModalProvider } from "@/components/providers/modal-providers"
-import { ThemeProvider } from "@/components/providers/theme-provider"
 import { SocketProvider } from "@/components/providers/socket-providers"
+import { ModalProvider } from "@/components/providers/modal-providers"
 import { QueryProvider } from "@/components/providers/query-providers"
+import { ThemeProvider } from "@/components/providers/theme-provider"
 
 const font = Open_Sans({ subsets: ["latin"] })
 
