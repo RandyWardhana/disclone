@@ -1,15 +1,15 @@
-import { Open_Sans } from "next/font/google"
-import { ClerkProvider } from "@clerk/nextjs"
-import type { Metadata } from "next"
+import { Open_Sans } from 'next/font/google'
+import { ClerkProvider } from '@clerk/nextjs'
+import type { Metadata } from 'next'
 
-import { cn } from "@/lib/utils"
+import { cn } from '@/lib/utils'
 
-import { SocketProvider } from "@/components/providers/socket-providers"
-import { ModalProvider } from "@/components/providers/modal-providers"
-import { QueryProvider } from "@/components/providers/query-providers"
-import { ThemeProvider } from "@/components/providers/theme-provider"
+import { SocketProvider } from '@/components/providers/socket-providers'
+import { ModalProvider } from '@/components/providers/modal-providers'
+import { QueryProvider } from '@/components/providers/query-providers'
+import { ThemeProvider } from '@/components/providers/theme-provider'
 
-import "./globals.css"
+import './globals.css'
 
 const font = Open_Sans({ subsets: ["latin"] })
 
